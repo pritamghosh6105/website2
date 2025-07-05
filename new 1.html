@@ -1,0 +1,84 @@
+<html>
+<head>
+	<title>form elements</title>
+</head>
+
+<style>
+body{
+margin:100px;
+border:solid 5px gray;
+padding:50px;
+width:70%;
+background-color:lightgreen;
+}
+
+#sb1,#rb1{
+background-color:royalblue;
+padding:10px;
+color:white;
+font-weight:bolder;
+border:none;
+width:200px;
+border-radius:10px;
+}
+</style>
+
+<body>
+<form name="f1" id="f1" method="post" action="">
+<h1>REGISTRATION PAGE</h1>
+<hr width=100% align="left">
+
+NAME :<input type="text" placeholder="first name" name="t1" id="t1" size=20>
+<input type="text" placeholder="last name" name="t2" id="t2">
+<br><br>
+
+GUARDIAN NAME:<input type="text" placeholder="first name" name="t3" id="t3">
+<input type="text" placeholder="last name" name="t4" id="t4">
+<br><br>
+
+ADDRESS:<br>
+<textarea rows=5 cols=50 placeholder="current address" name="t5" id="t5">
+</textarea>
+
+<br><br>
+GENDER:
+<input type="radio" name="r1" id="r1">MALE
+<input type="radio" name="r1" id="r2">FEMALE
+<input type="radio" name="r1" id="r3">OTHERS
+
+<BR><br>
+SELECT QUALIFICATION:
+<select name="s1" id="s1">
+<option value="madhyamik">MADHYAMIK</option>
+<option value="hs" selected>HS</option>
+<option value="b.sc">B.SC</option>
+<option value="b.com">B.COM</option>
+</select>
+
+<br><br>
+EMAIL ID:<input type="email" placeholder="valid email" name="e1" id="e1" required>
+
+<br><br>
+PASSWORD:<input type="password" placeholder="valid password" name="p1" id="p1">
+
+<br><br>
+DATE OF BIRTH:<input type="date" name="d1" id="d1">
+
+<br><br>
+YOU HAVE:
+<input type="checkbox" name="cb1" id="cb1">MOBILE
+<input type="checkbox" name="cb2" id="cb2">LAPTOP
+<input type="checkbox" name="cb3" id="cb3">DESKTOP
+<input type="checkbox" name="cb4" id="cb4">TAB
+
+<br><br>
+UPLOAD CV :<input type="file" name="fi1" id="fi1">
+
+<br><br>
+<input type="submit" value="REGISTER ME" name="sb1" id="sb1">
+<input type="reset" value="REFRESH PAGE" name="rb1" id="rb1">
+
+</form>
+
+</body>
+</html>
